@@ -40,7 +40,7 @@
 ## Transferring to a new device while keeping the same account:
 
 - Uninstall filter from the old device. If this is not possible it will not cause issues.
-- On the [portal](https://portal.mbsmartservices.com), after filter is set to off on the Main tab, a RecoveryID will be generated. This can be found on the User list, on the last row. ![You can find it on the rightmost column of the User list](./RecoveryID.png)
+- On the [portal](https://portal.mbsmartservices.com), after filter is set to off on the Main tab, a RecoveryID will be generated. This can be found on the User list, on the last row. ![You can find it on the rightmost column of the User list](./img/RecoveryID.png)
 - Install on the new device normally up until getting a green screen on the installer, and proceed into the device.
 - Instead of creating a new account on the device, select Recover and insert the RecoveryID generated, including the colon and email, the format should be as follows <#ID:email\>
 > [!Note]
