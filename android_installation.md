@@ -44,7 +44,8 @@
 
 ## Device Owner
 
-- ==WIP Please Ignore!==, 
+[!Note]
+WIP Please Ignore 
 ---
 [^1]: Sometimes called by other names, if there is difficulty finding this section, just search for build number in the Settings app.
 [^2]: Sometimes we encounter errors, refer to the Troubleshooting section for more info.
