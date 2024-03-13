@@ -60,7 +60,9 @@
 ## Device Owner:
 
 > [!Note]
-> WIP Please Ignore 
+> WIP Please Ignore
+- Source: https://source.android.com/docs/devices/admin/provision#managed_provisioning
+- Source: 
 ---
 [^1]: Sometimes called by other names, if there is difficulty finding this section, just search for build number in the Settings app.
 [^2]: Sometimes we encounter errors, refer to the Troubleshooting section for more info.
