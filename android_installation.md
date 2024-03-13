@@ -49,7 +49,15 @@
 > [!Important]
 > A new ID will be generated for the new device, so if there is need to work on the portal for the account make sure to use the appropiate one.
 
-## Device Owner
+## Compatibility notes & Known issues:
+
+- Samsung S6, S7 and S8 devices are likely to encounter a bug where a passcode is set on the device unintentionally, with no known solution other than doing a Factory Reset, recommendation is to not install on these devices at all.
+- Some chinese can display accessibility issues, in this case we recommend avoiding _Bypass(IAB Blocked)_ as much as possible
+- On Android 9 it is possible that the Chrome and Google apps will not be filtered. In these situations it is recommended to close them or, for Chrome only, set the app to be whitelisted. The best solution is to update to Android 10+.
+- On some Motorola devices, we have seen an issue where battery charging is limited to 30%, only solution known is to remove the Device Owner.
+
+
+## Device Owner:
 
 > [!Note]
 > WIP Please Ignore 
