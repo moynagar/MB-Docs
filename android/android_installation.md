@@ -9,7 +9,7 @@ The intent behind this guide is to give a comprehensive understanding for what g
 - Storage must not be completely full
 - Charging port must work (unless the idea is to install via QR code)
 - For Android version 14, signing out of all accounts in settings is a prerequisite for installation, this is done by going into _Settings_ => _Passwords and accounts_ and removing each one. This means that the user would need to sign into the accounts once again after installation.
-- Secondary Users such as Guest User, Multiple Users or Dual Messenger will cause the filter installation to fail, as such, these need to be removed as well.
+- Secondary Users such as Guest User, Multiple Users or Dual Messenger will cause the installation to fail, as such, these need to be removed as well.
 
 ## Brand Specific Instructions:
 
