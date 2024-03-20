@@ -78,7 +78,7 @@ The intent behind this guide is to give a comprehensive understanding for what g
 ### Provisioning
 
 - A device is considered provisioned once a device owner, user or device admin is set up in the device.
-- A device can be unprovisioned manually by removing all accounts from settings or, alternatively, by factory-resetting it.
+- A device can be deprovisioned manually by removing all accounts from settings or, alternatively, by factory-resetting it.
 
 ## [Users](https://source.android.com/docs/devices/admin/multi-user#categories_of_users):
 
