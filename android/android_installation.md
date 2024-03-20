@@ -1,6 +1,6 @@
 # MB Smart Android Installation Guide
 
-The intent behind this guide is to give a comprehensive understanding for what goes on under the hood of an installation of MB Smart for Android, in hopes of having a clear information source to be kept up to date and relevant by us. In the case you believe there is a mistake, or that there is some information missing, send us a message on slack and we'll evaluate it.
+The intent behind this guide is to give a comprehensive understanding for what goes on under the hood of an installation of MB Smart for Android in hopes of having a clear information source to be kept up to date and relevant by us. In the case you believe there is a mistake or there is some information missing, send us a message on slack and we'll evaluate it.
 
 ## Requirements:
 
@@ -41,6 +41,8 @@ The intent behind this guide is to give a comprehensive understanding for what g
 
 ### QR Code Method:
 
+> [!Note]
+> This is only available for devices which are not provisioned (check in the Device Owner section to find out about provisioning), are running Android version 7.0+ and have a QR code reader. It will not work otherwise.
 - Turn on a new or factory-reset device.
 - Tap screen 6 times in the same spot. This triggers the device to prompt you to scan a QR code.
 - Scan the QR code![QR Code](./img/QRcode.jpg)
