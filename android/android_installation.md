@@ -1,4 +1,4 @@
-# MB Smart Android Installation *Guide*
+MB Smart Android Installation *Guide*
 =======================================
 
 ## Requirements:
