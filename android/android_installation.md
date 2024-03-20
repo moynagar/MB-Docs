@@ -61,14 +61,20 @@ The intent behind this guide is to give a comprehensive understanding for what g
 
 ## Compatibility notes & Known issues:
 
+- Android GO versions 5.0 and above are compatible as well.
 - Samsung S6, S7 and S8 devices are likely to encounter a bug where a passcode is set on the device unintentionally, with no known solution other than doing a Factory Reset, recommendation is to not install on these devices at all.
-- Some chinese can display accessibility issues, in this case we recommend avoiding _Bypass(IAB Blocked)_ as much as possible
+- Some chinese can display accessibility issues, in this case we recommend avoiding _Bypass(IAB Blocked)_ as much as possible.
 - On Android 9 it is possible that the Chrome and Google apps will not be filtered. In these situations it is recommended to close them or, for Chrome only, set the app to be whitelisted. The best solution is to update to Android 10+.
 - On some Motorola devices, we have seen an issue where battery charging is limited to 30%, only solution known is to remove the Device Owner.
 - Oppo and Realme brand devices have not been succesfuly installed on. (Please contact if this is proven to be untrue, with details.)
-- Xiaomi F21 (sometimes known as Duo Qin F21) devices are not well supported by the filter, and can have some issues. TAG policy is not to install on these.
-- CAT S22 Flip devices have some issues with permissions being missing, among other compatibility issues. TAG policy is not to install on these devices.
+- We have seen mixed success with the Unihertz Jelly 2.
 - Amazon Fire devices, even though running a version of Android, are not compatible.
+
+### TAG policy notes:
+
+- CAT S22 Flip devices have some issues with permissions being missing, among other compatibility issues. TAG policy is not to install on these devices.
+- Xiaomi F21 (sometimes known as Duo Qin F21) devices are not well supported by the filter, and can have some issues. TAG policy is not to install on these.
+- MP3 players are against TAG policy.
 
 ## Device Owner:
 
