@@ -28,12 +28,12 @@
 
 - Go into _Settings_ => _About phone_[^1] => _Software Information_.
 - Scroll down to _Build number_ and tap until a notice appears informing that developer options have been enabled.
-- Go back to the main settings menu, where a new option called _Developer options_.
-- Go into _Developer options_, scroll down to _USB debugging_ and switch it on.
-- On your computer, open the installer, either [standalone](https://installer.mbsmart.net/MB_Installer.exe) or through TAG Hub and connect the device into the computer via USB.
+- Go back to the main settings menu, where a new option called _Developer options_ ahould have appeared.
+- Go into _Developer options_, scroll down to _USB debugging_ and enable it.
+- On the computer, open the installer, either [standalone](https://installer.mbsmart.net/MB_Installer.exe) or through TAG Hub and connect the device via USB.
 - Accept the connection on the device, the installer should then go through several screens and then complete, showing a green screen[^2].
-- On the device, the application should have installed and started on it's own, accept the terms and conditions.
-- Continue to account creation, filling in the user's details, the office linkcode, and a pin which will be used to request support.
+- On the device, the application should have installed and started on it's own, accept the terms and conditions to continue.
+- Continue to account creation, fill in the user's details, the office linkcode, and a pin which will be used for support requests.
 - Once account creation is done, you will be prompted to give permissions to the MB Smart app.
 - A payment screen will be presented, after which you will proceed to configure the device on the portal, optionally.
 
@@ -45,8 +45,8 @@
 
 ## Transferring to a new device while keeping the same account:
 
-- Uninstall filter from the old device. If this is not possible it will not cause issues.
-- On the [portal](https://portal.mbsmartservices.com), after filter is set to off on the Main tab, a RecoveryID will be generated. This can be found on the User list, on the last row. ![You can find it on the rightmost column of the User list](./img/RecoveryID.png)
+- Uninstall filter from the old device. If this is not possible, it will not cause issues.
+- On the [portal](https://portal.mbsmartservices.com), after filter is set to  *_*off*_* on the Main tab, a RecoveryID will be generated. This can be found on the User list, on the last row. ![You can find it on the rightmost column of the User list](./img/RecoveryID.png)
 - Install on the new device normally up until getting a green screen on the installer, and proceed into the device.
 - Instead of creating a new account on the device, select Recover and insert the RecoveryID generated, including the colon and email, the format should be as follows <#ID:email\>
 > [!Note]
