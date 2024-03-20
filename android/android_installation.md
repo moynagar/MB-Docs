@@ -1,5 +1,7 @@
 # MB Smart Android Installation Guide
 
+The intent behind this guide is to give a comprehensive understanding for what goes on under the hood of an installation of MB Smart for Android, in hopes of having a clear information source to be kept up to date and relevant by us. In the case you believe there is a mistake, or that there is some information missing, send us a message on slack and we'll evaluate it.
+
 ## Requirements:
 
 - Android version 5.0 and above
