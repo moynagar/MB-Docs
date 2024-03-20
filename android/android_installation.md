@@ -19,7 +19,9 @@ The intent behind this guide is to give a comprehensive understanding for what g
 
 ### Xiaomi
 
-- It is required to turn off _MIUI Optimization_ in developer options and turn on _Install via USB_ in the USB debugging section
+> [!Note]
+> There are branches of Xiaomi which also make phones which have similar instructions, like Poco and Redmi.
+- It is required to disable _MIUI Optimization_ in developer options and enable _Install via USB_ in the USB debugging section
 
 ### Other Chinese Brands
 
