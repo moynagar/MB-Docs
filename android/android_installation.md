@@ -75,6 +75,11 @@ The intent behind this guide is to give a comprehensive understanding for what g
 - A device owner provisioned device can have Android's full range of management policies.
 - A device cannot have users or user data configured for provisioning to be supported.
 
+### Provisioning
+
+- A device is considered provisioned once a device owner, user or device admin is set up in the device.
+- A device can be unprovisioned manually by removing all accounts from settings or, alternatively, by factory-resetting it.
+
 ## [Users](https://source.android.com/docs/devices/admin/multi-user#categories_of_users):
 
 - System user: the first user added to a device, which cannot be removed except for a factory reset and is always running even when other users are in the foreground. It has special privileges and settings only it can set.
