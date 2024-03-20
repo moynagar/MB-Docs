@@ -40,7 +40,7 @@
 ### QR Code Method:
 
 - Turn on a new/factory-reset device.
-- Tap screen 6 times in the same spot. This triggers the device to prompt you to scana QR code.
+- Tap screen 6 times in the same spot. This triggers the device to prompt you to scan a QR code.
 - Scan the QR code![QR Code](./img/QRcode.jpg) 
 
 ## Transferring to a new device while keeping the same account:
