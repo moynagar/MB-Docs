@@ -46,14 +46,14 @@
 ## Transferring to a new device while keeping the same account:
 
 - Uninstall filter from the old device. If this is not possible, it will not cause issues.
-- On the [portal](https://portal.mbsmartservices.com), after filter is set to  *_*off*_* on the Main tab, a RecoveryID will be generated. This can be found on the User list, on the last row. ![You can find it on the rightmost column of the User list](./img/RecoveryID.png)
+- On the [portal](https://portal.mbsmartservices.com), after filter is set to *\_*off*\_* on the Main tab, a RecoveryID will be generated. This can be found on the User list, on the last row. ![You can find it on the rightmost column of the User list](./img/RecoveryID.png)
 - Install on the new device normally up until getting a green screen on the installer, and proceed into the device.
 - Instead of creating a new account on the device, select Recover and insert the RecoveryID generated, including the colon and email, the format should be as follows <#ID:email\>
-> [!Note]
-> Most keyboards insert spaces after punctuation, so be mindful of this and make sure there are no spaces around or in between the RecoveryID parts
+  > [!Note]
+  > Most keyboards insert spaces after punctuation, so be mindful of this and make sure there are no spaces around or in between the RecoveryID parts
 - Set up permissions as you would do any other installation. The filter should now be completely installed and configured the same as the original account was.
-> [!Important]
-> A new ID will be generated for the new device, so if there is need to work on the portal for the account make sure to use the appropiate one.
+  > [!Important]
+  > A new ID will be generated for the new device, so if there is need to work on the portal for the account make sure to use the appropiate one.
 
 ## Compatibility notes & Known issues:
 
@@ -63,15 +63,13 @@
 - On some Motorola devices, we have seen an issue where battery charging is limited to 30%, only solution known is to remove the Device Owner.
 - Oppo and Realme brand devices have not been succesfuly installed on. (Please contact if this is proven to be untrue, with details.)
 
-
 ## Device Owner:
 
 - A device owner app is a special device admin that cannot be deactivated by the user, once activated. It also cannot be uninstalled.
 - A device owner provisioned device can have Android's full range of management policies.
 - A device cannot have users or user data configured for provisioning to be supported.
 - To be provisioned correctly, a device owner app must be installed on all profiles for a user.
-- Source: 
-
+- Source:
 
 ## [Users](https://source.android.com/docs/devices/admin/multi-user#categories_of_users):
 
@@ -82,5 +80,6 @@
 - Admin user: has permissions to create and remove other users, as well as control multi-user settings. By default, only the system user is an admin.
 
 ---
+
 [^1]: Sometimes called by other names, if there is difficulty finding this section, just search for build number in the Settings app.
 [^2]: Sometimes we encounter errors, refer to the Troubleshooting section for more info.
