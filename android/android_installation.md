@@ -1,5 +1,4 @@
-MB Smart Android Installation *Guide*
-=======================================
+# MB Smart Android Installation Guide
 
 ## Requirements:
 
@@ -50,11 +49,11 @@ MB Smart Android Installation *Guide*
 - On the [portal](https://portal.mbsmartservices.com), after filter is set to **_off_** on the Main tab, a RecoveryID will be generated. This can be found on the User list, on the last row. ![You can find it on the rightmost column of the User list](./img/RecoveryID.png)
 - Install on the new device normally up until getting a green screen on the installer, and proceed into the device.
 - Instead of creating a new account on the device, select Recover and insert the RecoveryID generated, including the colon and email, the format should be as follows <#ID:email\>
-  > [!Note]
-  > Most keyboards insert spaces after punctuation, so be mindful of this and make sure there are no spaces around or in between the RecoveryID parts
+> [!Note]
+> Most keyboards insert spaces after punctuation, so be mindful of this and make sure there are no spaces around or in between the RecoveryID parts
 - Set up permissions as you would do any other installation. The filter should now be completely installed and configured the same as the original account was.
-  > [!Important]
-  > A new ID will be generated for the new device, so if there is need to work on the portal for the account make sure to use the appropiate one.
+> [!Important]
+> A new ID will be generated for the new device, so if there is need to work on the portal for the account make sure to use the appropiate one.
 
 ## Compatibility notes & Known issues:
 
