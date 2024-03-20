@@ -41,7 +41,13 @@
 
 - Turn on a new/factory-reset device.
 - Tap screen 6 times in the same spot. This triggers the device to prompt you to scan a QR code.
-- Scan the QR code![QR Code](./img/QRcode.jpg) 
+- Scan the QR code![QR Code](./img/QRcode.jpg)
+
+### Troubleshooting:
+
+- If _a_, then _b_
+- Otherwise, _c_ ...
+- These are placeholders for real troubleshooting steps, please excuse me while compiling them into a comprehensive list.
 
 ## Transferring to a new device while keeping the same account:
 
@@ -61,6 +67,7 @@
 - Some chinese can display accessibility issues, in this case we recommend avoiding _Bypass(IAB Blocked)_ as much as possible
 - On Android 9 it is possible that the Chrome and Google apps will not be filtered. In these situations it is recommended to close them or, for Chrome only, set the app to be whitelisted. The best solution is to update to Android 10+.
 - On some Motorola devices, we have seen an issue where battery charging is limited to 30%, only solution known is to remove the Device Owner.
+- Oppo and Realme brand devices have not been succesfuly installed on. (Please contact if this is proven to be untrue, with details.)
 
 
 ## Device Owner:
