@@ -19,7 +19,7 @@ The intent behind this guide is to give a comprehensive understanding for what g
 
 ### Xiaomi
 
-- It is required to turn off _MIUI Optimization_ in developer options and _Install via USB_ in the USB debugging section
+- It is required to turn off _MIUI Optimization_ in developer options and turn on _Install via USB_ in the USB debugging section
 
 ### Other Chinese Brands
 
@@ -66,14 +66,14 @@ The intent behind this guide is to give a comprehensive understanding for what g
 - On Android 9 it is possible that the Chrome and Google apps will not be filtered. In these situations it is recommended to close them or, for Chrome only, set the app to be whitelisted. The best solution is to update to Android 10+.
 - On some Motorola devices, we have seen an issue where battery charging is limited to 30%, only solution known is to remove the Device Owner.
 - Oppo and Realme brand devices have not been succesfuly installed on. (Please contact if this is proven to be untrue, with details.)
+- Xiaomi F21 (sometimes known as Duo Qin F21) devices are not well supported by the filter, and can have some issues. TAG policy is not to install on these.
+- CAT S22 Flip devices have some issues with permissions being missing, among other compatibility issues. TAG policy is not to install on these devices.
 
 ## Device Owner:
 
 - A device owner app is a special device admin that cannot be deactivated by the user, once activated. It also cannot be uninstalled.
 - A device owner provisioned device can have Android's full range of management policies.
 - A device cannot have users or user data configured for provisioning to be supported.
-- To be provisioned correctly, a device owner app must be installed on all profiles for a user.
-- Source:
 
 ## [Users](https://source.android.com/docs/devices/admin/multi-user#categories_of_users):
 
