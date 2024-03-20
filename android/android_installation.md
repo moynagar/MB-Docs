@@ -68,6 +68,7 @@ The intent behind this guide is to give a comprehensive understanding for what g
 - Oppo and Realme brand devices have not been succesfuly installed on. (Please contact if this is proven to be untrue, with details.)
 - Xiaomi F21 (sometimes known as Duo Qin F21) devices are not well supported by the filter, and can have some issues. TAG policy is not to install on these.
 - CAT S22 Flip devices have some issues with permissions being missing, among other compatibility issues. TAG policy is not to install on these devices.
+- Amazon Fire devices, even though running a version of Android, are not compatible.
 
 ## Device Owner:
 
