@@ -6,13 +6,13 @@
 - No other device owner present in the device
 - Storage must not be completely full
 - Charging port must work (unless the idea is to install via QR code)
-- For Android version 14, signing out of all accounts in settings is a prerequisite for installation, this is done by going into _Settings_ |> _Passwords and accounts_ and removing each one. This will mean that the user needs to sign in to their accounts once again after installation.
+- For Android version 14, signing out of all accounts in settings is a prerequisite for installation, this is done by going into _Settings_ => _Passwords and accounts_ and removing each one. This will mean that the user needs to sign in to their accounts once again after installation.
 
 ## Brand Specific Instructions:
 
 ### Samsung
 
-- _Secure Folder_ causes issues with installation, where the app is not able to be installed correctly onto the device, thus uninstalling it from settings is necessary before installing the filter by entering into _Secure Folder_ |> _Settings_ and pressing uninstall.
+- _Secure Folder_ causes issues with installation, where the app is not able to be installed correctly onto the device, thus uninstalling it from settings is necessary before installing the filter by entering into _Secure Folder_ => _Settings_ and pressing uninstall.
 - _Secondary Users_ such as guest user, multiple users or dual messenger will cause the filter installation to fail, so they need to be removed as well.
 
 ### Xiaomi
@@ -26,7 +26,7 @@
 
 ## Step by Step installation:
 
-- Go into _Settings_ |> _About phone_[^1] |> _Software Information_.
+- Go into _Settings_ => _About phone_[^1] => _Software Information_.
 - Scroll down to _Build number_ and tap until a notice appears informing that developer options have been enabled.
 - Go back to the main settings menu, where a new option called _Developer options_.
 - Go into _Developer options_, scroll down to _USB debugging_ and switch it on.
@@ -39,7 +39,7 @@
 
 ### QR Code Method:
 
-- Turn on a new/factory-reset device.
+- Turn on a new or factory-reset device.
 - Tap screen 6 times in the same spot. This triggers the device to prompt you to scan a QR code.
 - Scan the QR code![QR Code](./img/QRcode.jpg)
 
