@@ -37,6 +37,12 @@
 - Once account creation is done, you will be prompted to give permissions to the MB Smart app.
 - A payment screen will be presented, after which you will proceed to configure the device on the portal, optionally.
 
+### QR Code Method:
+
+- Turn on a new/factory-reset device.
+- Tap screen 6 times in the same spot. This triggers the device to prompt you to scana QR code.
+- Scan the QR code![QR Code](./img/QRcode.jpeg) 
+
 ## Transferring to a new device while keeping the same account:
 
 - Uninstall filter from the old device. If this is not possible it will not cause issues.
@@ -59,10 +65,21 @@
 
 ## Device Owner:
 
-> [!Note]
-> WIP Please Ignore
-- Source: https://source.android.com/docs/devices/admin/provision#managed_provisioning
+- A device owner app is a special device admin that cannot be deactivated by the user, once activated. It also cannot be uninstalled.
+- A device owner provisioned device can have Android's full range of management policies.
+- A device cannot have users or user data configured for provisioning to be supported.
+- To be provisioned correctly, a device owner app must be installed on all profiles for a user.
 - Source: 
+
+
+## [Users](https://source.android.com/docs/devices/admin/multi-user#categories_of_users):
+
+- System user: the first user added to a device, which cannot be removed except for a factory reset and is always running even when other users are in the foreground. It has special privileges and settings only it can set.
+- Headless system user: same as system user, but configured to run in headless mode. Always runs in background, and requires additional users in the foreground for enabling user interactin.
+- Secondary user: any user added to the device other than the system user. These can be removed and cannot impact other users on the device. They can run in the background and continue to have network connectivity.
+- Guest user: temporary secondary user, with the option to quickly discard when usefulness is over. Only one guest user is permitted at a time.
+- Admin user: has permissions to create and remove other users, as well as control multi-user settings. By default, only the system user is an admin.
+
 ---
 [^1]: Sometimes called by other names, if there is difficulty finding this section, just search for build number in the Settings app.
 [^2]: Sometimes we encounter errors, refer to the Troubleshooting section for more info.
